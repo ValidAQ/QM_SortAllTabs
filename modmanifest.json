@@ -1,0 +1,11 @@
+{
+	"UniqueModName": "valid_QM_SortAllTabs",
+	"Assemblies": [
+		"QM_SortAllTabs.dll"
+	],
+	"Dependencies": [],
+    "SteamTags": [
+        "Quality of Life",
+        "0.9.9"
+    ]
+}

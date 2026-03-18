@@ -1,0 +1,15 @@
+{
+  "mod.qm_sortalltabs.sort_all": {
+    "en": "Sort all holds",
+	"ru": "Сортировка всех грузовых отсеков",
+	"de": "Sortieren Sie alle Frachträume",
+	"fr": "Trier toutes les cales de cargaison",
+	"es": "Ordenar todas las bodegas de carga",
+	"pl": "Posortuj wszystkie ładownie",
+	"tr": "Tüm kargo bölmelerini sıralayın",
+	"pt": "Classificar todos os porões de carga",
+	"ko": "모든 화물칸을 정렬합니다",
+	"ja": "すべての貨物室を並べ替える",
+	"zh": "整理所有货舱"
+  }
+}
