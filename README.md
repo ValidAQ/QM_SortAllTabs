@@ -1,7 +1,9 @@
 # Sort All Tabs
 
-This mod adds a "sort all cargo tabs" button to the Ship Cargo UI.
+This mod adds a new "sort all cargo tabs" button to the Ship Cargo UI.
 The button only affects the normal tabs, not touching the cryochamber or recycler tabs.
+
+"Receive and distribute" settings are respected - tabs with it enabled will exchange items with other tabs, while tabs with it disabled will only sort their own items.
 
 ## Translations
 
