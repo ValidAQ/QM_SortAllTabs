@@ -18,7 +18,7 @@
 				"isDefault": true
 			},
 			"presentation": {
-				"reveal": "always",
+				"reveal": "silent",
 				"panel": "shared"
 			},
 			"problemMatcher": "$msCompile"
@@ -34,10 +34,36 @@
 			],
 			"group": "build",
 			"presentation": {
-				"reveal": "always",
+				"reveal": "silent",
 				"panel": "shared"
 			},
 			"problemMatcher": "$msCompile"
+		},
+		{
+			"label": "Launch Quasimorph",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-Command",
+				"Start-Process 'steam://rungameid/2059170'"
+			],
+			"problemMatcher": [],
+			"presentation": {
+				"reveal": "never",
+				"panel": "shared",
+				"showReuseMessage": false,
+				"clear": false
+			}
+		},
+		{
+			"label": "Build and Run",
+			"dependsOn": [
+				"Build Steam",
+				"Launch Quasimorph"
+			],
+			"dependsOrder": "sequence",
+			"problemMatcher": []
 		},
 		{
 			"label": "Format Steam README",
